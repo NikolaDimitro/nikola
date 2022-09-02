@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="bRK2MJS`_s5Qq3puZl~9" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="AZpFbN.*~(EyCsqDbEgW"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="TF#o*j!DL3Qu|/!xZ-4s"><field name="i">IconNames.Ghost</field><next><block type="device_print_message" id="^xrxOX3!}(azyBm?kmd#"><value name="text"><shadow type="text" id="iXuR^Ab})j1EJvRJo~yf"><field name="TEXT">Hallo!</field></shadow></value><next><block type="device_show_leds" id="G=bh7H6B;d[T|f0spg}5"><field name="LEDS">`
+        # . . . . 
+        # # . . . 
+        # . # . . 
+        # . . # . 
+        # # # # #
+        `</field><next><block type="device_print_message" id="YGs3YxbTi;Z6e!dj@`vZ"><value name="text"><shadow type="text" id="0J`y~wg2aq+`JbS$a?jS"><field name="TEXT">Hallo Nikola Spasov Dimitrov!</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="{RSJSqZ`E7=9/ea*n%CH" x="0" y="733"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_arrow" id="BiTon]{x1Pm)0chnV@lo"><value name="i"><shadow type="device_arrow" id="mN?Eorrtib?uj?[7Do%b"><field name="arrow">ArrowNames.North</field></shadow></value></block></statement></block><block type="device_button_event" id="T4G%c7K0p-7GG=.bVn+Z" x="363" y="733"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_arrow" id="rY%BtOIJXF/4o%h]b!]$"><value name="i"><shadow type="device_arrow" id="o8@E0[hB$h;H]CXAZ##w"><field name="arrow">ArrowNames.NorthEast</field></shadow></value></block></statement></block><block type="device_forever" id="fGI}yBz3Znz0JBp{HV9z" x="0" y="906"></block><block type="device_gesture_event" id="5j3/H[{-8(9xSgeRKTVc" x="205" y="906"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_arrow" id="bBn.`[7ONh=kF]UwQA3{"><value name="i"><shadow type="device_arrow" id="VNY#tH.;tiiC9~YaP/s+"><field name="arrow">ArrowNames.East</field></shadow></value></block></statement></block></xml>
